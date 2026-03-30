@@ -3,6 +3,10 @@ import "./globals.css";
 export const metadata = {
   title: "Taller Práctico de Injertos | Vivero El Trébol",
   description: "Aprendé a injertar y llevate tus propias plantas frutales.",
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
 };
 
 export default function RootLayout({ children }) {
